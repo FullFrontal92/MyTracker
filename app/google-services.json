@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "829891772588",
+    "firebase_url": "https://mytracker-f3ae1.firebaseio.com",
+    "project_id": "mytracker-f3ae1",
+    "storage_bucket": "mytracker-f3ae1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829891772588:android:4c1d689b4de91e19",
+        "android_client_info": {
+          "package_name": "com.example.adambenyahia.mytracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829891772588-tpqvk7311g932c2bpgesrkr294vr39s3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbFIaqYDf3DQ6wtPpmIe2TrCTnWrpCYu4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
