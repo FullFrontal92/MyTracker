@@ -18,7 +18,7 @@ public class Login extends AppCompatActivity {
 
     public void BuNext(View view) {
 
-        GlobalInfo.PhoneNumber=EDTNumber.getText().toString();
+        GlobalInfo.PhoneNumber=GlobalInfo.FormatPhoneNumber(EDTNumber.getText().toString());
         GlobalInfo.UpdatesInfo(GlobalInfo.PhoneNumber);
         Intent intent=new Intent(this, MyTrackers.class);
         startActivity(intent);

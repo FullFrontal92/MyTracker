@@ -19,4 +19,17 @@ public class GlobalInfo {
         DatabaseReference mDatabase= FirebaseDatabase.getInstance().getReference();
         mDatabase.child("Users").child(UserPhone).child("Updates").setValue(df.format(date).toString());
     }
+
+    public static String FormatPhoneNumber(String Oldnumber){
+        try{
+            String numberOnly= Oldnumber.replaceAll("[^0-9]", "");
+            if (Oldnumber.charAt(0)=='+') numberOnly="+" +numberOnly ;
+            numberOnly=numberOnly.substring(numberOnly.length()-10,numberOnly.length());
+            return (numberOnly);
+        }
+        catch (Exception ex){
+            return (" ");
+        }
+
+    }
 }
